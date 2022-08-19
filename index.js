@@ -1,11 +1,11 @@
-function receivesAFunction(spy){
+function receivesAFunction(spy){// let  spy = function print (){}
     return spy();
 }
 
 function returnsANamedFunction(){
     return(function print(){
-        console.log("Hello");
-    });
+        console.log (print);
+    })
 }
 
 function returnsAnAnonymousFunction(){
