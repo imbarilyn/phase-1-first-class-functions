@@ -1,10 +1,9 @@
-function receivesAFunction(spy){// let  spy = function print (){}
+function receivesAFunction(spy){
     return spy();
 }
 
 function returnsANamedFunction(){
     return(function print(){
-        console.log (print);
     })
 }
 
